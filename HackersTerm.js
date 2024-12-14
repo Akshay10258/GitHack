@@ -1,35 +1,3 @@
-// function interval(i){
-
-//     let t = setInterval(() => {
-//         // let last = document.body.getElementsByTagName("div");
-//         let last = document.body.querySelector(".messages").children[i];
-//         console.log(last)
-//         // console.log(last);
-//         // last = last[last.length - 1]
-//         // if(last.innerHTML.endsWith("...")){
-//         //     last.innerHTML = last.innerHTML.slice(0, last.innerHTML.length-3)
-//         // }
-//         // else{
-//             last.innerHTML = last.innerHTML + "."
-//     }, 700);
-//     console.log(t);
-// }
-
-// function dots(fn,i){
-//     fn(i);
-// }
-// let t = setInterval(() => {
-//     let last = document.body.querySelector(".messages").getElementsByTagName("div");
-//     last = last[last.length - 1]
-//     if(last.innerHTML.endsWith("...")){
-//         last.innerHTML = last.innerHTML.slice(0, last.innerHTML.length-3)
-//     }
-//     else{
-
-//         last.innerHTML = last.innerHTML + "."
-//     }
-
-// }, 100);
 
 async function printdatadelay(ele,delay){
     console.log(delay)
